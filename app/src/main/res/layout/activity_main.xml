@@ -16,58 +16,11 @@
         android:text="@string/back"
         android:textSize="15sp" />
 
-    <Button
-        android:id="@+id/btn_breakfast"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:text="@string/breakfast"
-        android:textSize="15sp"
-        android:layout_below="@id/btn_back"
-        android:layout_gravity="center"/>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    </ListView>
 
-    <Button
-        android:id="@+id/btn_lunch"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:text="@string/lunch"
-        android:textSize="15sp"
-        android:layout_below="@id/btn_breakfast"
-        android:layout_gravity="center"/>
 
-    <Button
-        android:id="@+id/btn_dinner"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:text="@string/dinner"
-        android:textSize="15sp"
-        android:layout_below="@id/btn_lunch"
-        android:layout_gravity="center"/>
-
-    <Button
-        android:id="@+id/btn_snack"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:text="@string/snack"
-        android:textSize="15sp"
-        android:layout_below="@id/btn_dinner"
-        android:layout_gravity="center"/>
-
-    <Button
-        android:id="@+id/btn_desserts"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:text="@string/desserts"
-        android:textSize="15sp"
-        android:layout_below="@id/btn_snack"
-        android:layout_gravity="center"/>
-
-    <Button
-        android:id="@+id/btn_drinks"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:text="@string/drinks"
-        android:textSize="15sp"
-        android:layout_below="@id/btn_desserts"
-        android:layout_gravity="center"/>
 
 </RelativeLayout>

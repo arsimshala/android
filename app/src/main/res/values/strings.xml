@@ -11,4 +11,10 @@
     <string name="fusilli_pesto">Fusilli Pesto</string>
     <string name="title">Title</string>
     <string name="recipe">Recipe: Cook 500g fusilli, add pesto and parmesan. Enjoy!</string>
+    <string-array name="food_arrays">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Snack</item>
+        <item>Desserts</item>
+    </string-array>
 </resources>
