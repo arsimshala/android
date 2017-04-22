@@ -15,7 +15,7 @@
 
     <EditText
         android:id="@+id/et_new_meal_title"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
@@ -24,7 +24,7 @@
 
     <EditText
         android:id="@+id/et_new_meal_recipe"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
@@ -33,7 +33,7 @@
 
     <EditText
         android:id="@+id/et_new_meal_number_of_serving"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
@@ -42,7 +42,7 @@
 
     <EditText
         android:id="@+id/et_new_meal_preparation_time"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
