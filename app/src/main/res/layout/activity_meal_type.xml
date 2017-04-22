@@ -13,21 +13,28 @@
         android:text="@string/back"
         android:textSize="15sp" />
 
-    <Button
-        android:id="@+id/btn_create_new_meal"
+    <TextView
+        android:id="@+id/tv_meal_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/create_new_meal"
-        android:textSize="15sp"
-        android:layout_toRightOf="@id/btn_back"/>
+        android:gravity="center"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tv_preparation_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"/>
 
     <Button
-        android:id="@+id/btn_fusilli_pesto"
+        android:id="@+id/btn_create_new_meal"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:textSize="15sp"
-        android:layout_below="@id/btn_back"
-        android:layout_gravity="center"/>
-
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="@string/create_new_meal"/>
 
 </RelativeLayout>
+
