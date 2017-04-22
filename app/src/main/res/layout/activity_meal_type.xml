@@ -14,14 +14,14 @@
         android:textSize="15sp" />
 
     <TextView
-        android:id="@+id/tv_meal_title"
+        android:id="@+id/tv_list_meal_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="16sp"/>
 
     <TextView
-        android:id="@+id/tv_preparation_time"
+        android:id="@+id/tv_list_preparation_time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"

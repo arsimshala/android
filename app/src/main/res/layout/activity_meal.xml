@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:layout_centerHorizontal="true">
 
-
     <Button
         android:id="@+id/btn_back"
         android:layout_width="wrap_content"
@@ -15,11 +14,10 @@
         android:textSize="15sp" />
 
     <TextView
-        android:id="@+id/tv_title"
+        android:id="@+id/tv_meal_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/title"
-        android:textSize="20sp"
+        android:textSize="22sp"
         android:textStyle="bold"
         android:layout_below="@id/btn_back"
         android:layout_centerHorizontal="true"
@@ -29,14 +27,38 @@
         android:id="@+id/tv_recipe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/recipe"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:layout_below="@id/tv_title"
+        android:textSize="16sp"
+        android:layout_below="@id/tv_meal_title"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center" />
 
+    <TextView
+        android:id="@+id/tv_number_of_serving"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_below="@id/tv_recipe"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center" />
 
+    <TextView
+        android:id="@+id/tv_preparation_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_below="@id/tv_recipe"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_creation_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_below="@id/tv_preparation_time"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center" />
 
 </RelativeLayout>
+
 
