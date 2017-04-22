@@ -17,48 +17,46 @@
         android:id="@+id/tv_meal_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
         android:textSize="22sp"
         android:textStyle="bold"
-        android:layout_below="@id/btn_back"
-        android:layout_centerHorizontal="true"
-        android:layout_gravity="center" />
+        android:layout_below="@id/btn_back" />
 
     <TextView
         android:id="@+id/tv_recipe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="16sp"
-        android:layout_below="@id/tv_meal_title"
         android:layout_centerHorizontal="true"
-        android:layout_gravity="center" />
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:layout_below="@id/tv_meal_title" />
 
     <TextView
         android:id="@+id/tv_number_of_serving"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="16sp"
-        android:layout_below="@id/tv_recipe"
         android:layout_centerHorizontal="true"
-        android:layout_gravity="center" />
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:layout_below="@id/tv_recipe" />
 
     <TextView
         android:id="@+id/tv_preparation_time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="16sp"
-        android:layout_below="@id/tv_recipe"
         android:layout_centerHorizontal="true"
-        android:layout_gravity="center" />
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:layout_below="@id/tv_recipe" />
 
     <TextView
         android:id="@+id/tv_creation_date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="16sp"
-        android:layout_below="@id/tv_preparation_time"
         android:layout_centerHorizontal="true"
-        android:layout_gravity="center" />
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:layout_below="@id/tv_preparation_time" />
 
 </RelativeLayout>
-
-

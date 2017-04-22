@@ -17,41 +17,37 @@
         android:id="@+id/et_new_meal_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:hint="Title"
-        android:layout_below="@id/btn_back"
         android:layout_centerHorizontal="true"
-        android:layout_gravity="center" />
+        android:layout_gravity="center"
+        android:hint="Title"
+        android:layout_below="@id/btn_back" />
 
     <EditText
         android:id="@+id/et_new_meal_recipe"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:hint="Recipe"
-        android:layout_below="@id/et_new_meal_title"
         android:layout_centerHorizontal="true"
-        android:layout_gravity="center" />
+        android:layout_gravity="center"
+        android:hint="Recipe"
+        android:layout_below="@id/et_new_meal_title" />
 
     <EditText
         android:id="@+id/et_new_meal_number_of_serving"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:hint="Number of serving"
-        android:layout_below="@id/et_new_meal_recipe"
         android:layout_centerHorizontal="true"
-        android:layout_gravity="center" />
+        android:layout_gravity="center"
+        android:hint="Number of serving"
+        android:layout_below="@id/et_new_meal_recipe" />
 
     <EditText
         android:id="@+id/et_new_meal_preparation_time"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:hint="Preparation time"
-        android:layout_below="@id/et_new_meal_number_of_serving"
         android:layout_centerHorizontal="true"
-        android:layout_gravity="center" />
+        android:layout_gravity="center"
+        android:hint="Preparation time"
+        android:layout_below="@id/et_new_meal_number_of_serving" />
 
     <Button
         android:id="@+id/btn_new_meal"
@@ -59,8 +55,8 @@
         android:layout_height="80dp"
         android:layout_alignParentBottom="true"
         android:gravity="center"
-        android:textSize="16sp"
-        android:text="@string/new_meal"/>
-    
+        android:text="@string/new_meal"
+        android:textSize="16sp" />
+
 </RelativeLayout>
 
