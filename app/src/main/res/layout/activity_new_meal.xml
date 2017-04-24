@@ -20,7 +20,7 @@
         android:layout_below="@id/btn_back"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
-        android:hint="Title" />
+        android:hint="@string/title" />
 
     <EditText
         android:id="@+id/txt_new_meal_recipe"
@@ -29,7 +29,7 @@
         android:layout_below="@id/txt_new_meal_title"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
-        android:hint="Recipe" />
+        android:hint="@string/recipe" />
 
     <EditText
         android:id="@+id/txt_new_meal_number_of_serving"
@@ -38,7 +38,7 @@
         android:layout_below="@id/txt_new_meal_recipe"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
-        android:hint="Number of serving" />
+        android:hint="@string/number_of_serving" />
 
     <EditText
         android:id="@+id/txt_new_meal_preparation_time"
@@ -47,7 +47,7 @@
         android:layout_below="@id/txt_new_meal_number_of_serving"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
-        android:hint="Preparation time" />
+        android:hint="@string/preparation_time" />
 
     <Button
         android:id="@+id/btn_new_meal"

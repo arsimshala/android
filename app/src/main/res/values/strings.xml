@@ -3,6 +3,11 @@
     <string name="back">Back</string>
     <string name="create_new_meal">Create New Meal</string>
     <string name="new_meal">Create New Meal</string>
-    <string name="recipe">Recipe: Cook 500g fusilli, add pesto and parmesan. Enjoy!</string>
+    <string name="title">Title</string>
+    <string name="recipe">Recipe</string>
+    <string name="number_of_serving">Number of serving</string>
+    <string name="preparation_time">Preparation time</string>
+
+
 
 </resources>
